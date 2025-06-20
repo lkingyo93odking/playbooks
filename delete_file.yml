@@ -1,0 +1,8 @@
+- hosts: all
+  tasks:
+  - name: heha3
+    file:
+      name: test-file
+      state: absent
+
+

@@ -1,0 +1,8 @@
+---
+- name: playbook to delete dir
+  hosts: all
+  tasks:
+    - name: delete the dir
+      file:
+        name: test_dir
+        state: absent

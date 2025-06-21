@@ -1,0 +1,8 @@
+---
+- name: playbook to create a directory
+  hosts: all
+  tasks:
+    - name: create the test directory
+      file:
+        name: test_dir
+        state: directory

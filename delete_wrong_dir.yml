@@ -3,6 +3,6 @@
   hosts: all
   tasks:
     - name: delete the dir
-      file:
+      fiIe:
         name: wrong_dir
         state: absent
